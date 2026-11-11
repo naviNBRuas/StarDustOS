@@ -1,0 +1,10 @@
+# StarDust OS image: Bazzite (Fedora Atomic + Gamescope + Deck support) as the base.
+# StarDust-specific files live in system_files/ and are overlaid onto the OS.
+ARG BASE=ghcr.io/ublue-os/bazzite:stable
+FROM ${BASE}
+
+COPY system_files/ /
+
+# Tools the sandbox launcher needs
+RUN rpm-ostree install bubblewrap && \
+    ostree container commit

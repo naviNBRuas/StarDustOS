@@ -1,0 +1,9 @@
+{
+  "id": "retroarch",
+  "source": "flathub:org.libretro.RetroArch",
+  "trust": "verified",
+  "exec": ["flatpak", "run", "org.libretro.RetroArch"],
+  "devices": ["gpu", "input", "audio"],
+  "network": false,
+  "systems": ["snes", "gba", "nes", "genesis", "psx"]
+}

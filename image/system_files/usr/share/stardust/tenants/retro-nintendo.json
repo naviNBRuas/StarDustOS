@@ -1,0 +1,6 @@
+{
+  "id": "retro-nintendo",
+  "root": "/games/libraries/retro-nintendo",
+  "network": false,
+  "visible_paths": ["roms", "bios", "saves", "config"]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "steam-main",
+  "root": "/games/libraries/steam-main",
+  "network": true,
+  "visible_paths": []
+}
